@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Метрика</title>
+
+  <link rel="icon" href="./resources/img/favicon.png" type="image/png">
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="header">
+      <div class="container">
+        <div class="header__wrapper">   
+        <div class="header__logo">
+          <img class="logo-img" src="./resources/img/Метрика.svg" alt="logo">
+        </div>
+      
+      <nav class="header__nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#about" class="nav__link">О Нас</a>
+          </li>
+          <li class="nav__item">
+            <a href="#proekts" class="nav__link">Проекты</a>
+          </li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">Услуги</a>
+          </li>
+          <li class="nav__item">
+            <a href="#conaks" class="nav__link">Контакты</a>
+          </li>
+        </ul>
+
+        <button class="js-burger-btn burger__btn">
+        </button>
+
+        <div class="burger js-burger">
+          <div class="burger__content ">
+            <img class="burger__logo" src="./resources/img/Метрика.svg" alt="logo">
+
+          <nav class="burger__nav">
+            <ul class="burger__nav-list">
+              <li class="burger__nav-item">
+                <a href="#about">О Нас</a>
+              </li>
+              <li class="burger__nav-item">
+                <a href="#proekts">Проекты</a>
+              </li>
+              <li class="burger__nav-item">
+                <a href="#services">Услуги</a>
+              </li>
+              <li class="burger__nav-item">
+                <a href="#conaks">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="burger__contscts js-burger__content">
+            <div class="burger__contscts-title">для связи</div>
+            <a class="burger__content-Phone" href="tel:+79358954535">
+              +7 935 895-45-35</a>
+            <div class="burger__contactsTg">
+                <a  class="burger__contactsLink" href="mailto:hello@mail.com">
+                  hello@mail.com</a>
+            </div>
+          </div>
+          </div>
+        </div>
+      </nav>
+      </div>
+      </div>
+  </header>
+
+
+<main>
+        <section class="hero">  
+            <div class="container">
+              
+          <h1 class="hero__title">Современные и стильные интерьеры для комфортной жизни</h1>
+        <div class="hero__box">
+            <p class="hero__text">Мы - команда квалифицированных дизайнеров и архитекторов, занимающихся разработкой и реализацией дизайн-проектов</p>
+        </div>
+
+      
+   </div>
+</section>
+
+<section class="about">
+
+  <div class="container">
+    <h2 class="about__title" id="about">о нас</h2>
+
+  <p class="about__text">Студия основана в 2011 году. Полностью отдаемся проектированию и реализации интерьеров. К нам обращаются за уютом,
+  индивидуальными решениями и практичностью. Находим конструктивные решения для каждого интерьера, вплоть до каждой детали
+  — нацелены на результат.</p>
+
+  <a href="#" class="about__btn">Посмотреть услуги</a>
+  </div>
+
+</section>
+
+        
+
+
+
+<section class="projects">
+  <div class="container">
+<h2 id="proekts" class="projects__title">Проекты</h2>
+
+<ul class="projects__list">
+
+  <li class="projects__item">
+    <picture>
+      <source 
+      media="(max-width:500px)"
+      srcset="resources\img\adaptif\section2\sectionA2.jpg">
+      <source media="(max-width:1199px)" 
+      srcset="resources\img\adaptif\section2\sectionA1.jpg">
+      <img class="projects__item-image" src="./resources/img/1.png" alt="Alt">
+    </picture>
+    <h3 class="projects__item-text">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</h3>
+    <a class="projects__item-link" href="#">Подробнее →</a>
+  </li>
+
+  <li class="projects__item">
+    <picture>
+    <source media="(max-width:500px)" srcset="resources\img\adaptif\section2\sectionB2.jpg">
+    <source media="(max-width:1199px)" srcset="resources\img\adaptif\section2\sectionB1.jpg">
+    <img class="projects__item-image" src="./resources/img/2.png" alt="Alt">
+    </picture>
+    
+    <h3 class="projects__item-text">ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</h3>
+    <a class="projects__item-link" href="#">Подробнее →</a>
+  </li>
+
+  <li class="projects__item">
+    <picture>
+    <source media="(max-width:500px)" srcset="resources\img\adaptif\section2\sectionC2.jpg">
+    <source media="(max-width:1199px)" srcset="resources\img\adaptif\section2\sectionC1.jpg">
+    <img class="projects__item-image" src="./resources/img/3.png" alt="Alt">
+    </picture>
+    
+    <h3 class="projects__item-text">ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</h3>
+    <a class="projects__item-link" href="#">Подробнее →</a>
+
+  </li>
+
+</ul>
+<a href="#" class="projects__link-big">Смотреть все проекты</a>
+   
+  </div>
+</section>
+
+
+<section class="services">
+  <div class="container">
+  <h2 id="services" class="services__title">Услуги</h2>
+  
+  <ul class="services__list">
+  
+    <li class="services__link">
+      <div class="services__link-wrapper">
+        <picture>
+          <source media="(max-width:500px)" srcset="resources\img\adaptif\section4\5.jpg">
+          <source media="(max-width:1199px)" srcset="resources\img\adaptif\section4\1.jpg">
+     <img class="services__link-img" src="./resources/img/adaptif/section3/section3A.jpg" alt="1">
+        </picture>
+
+        
+        <div class="services__link-item">от 2500₽/м²</div> 
+        
+      </div>
+      <h3 class="services__link-text">Планировочное решение</h3>
+
+     
+    </li>
+    <li class="services__link">
+      <div class="services__link-wrapper">
+        <picture>
+          <source media="(max-width:500px)" srcset="resources\img\adaptif\section4\6.jpg">
+          <source media="(max-width:1199px)" srcset="resources\img\adaptif\section4\2.jpg">
+        <img class="services__link-img" src="./resources/img/adaptif/section3/section3B.jpg" alt="2">
+        </picture>
+      
+      <div class="services__link-item">от 3000₽/м²</div>
+      
+      </div>
+  <h3 class="services__link-text">Дизайн-проект</h3>
+      
+    </li>
+  
+    <li class="services__link">
+      <div class="services__link-wrapper">
+      <picture>
+        <source media="(max-width:500px)" srcset="resources\img\adaptif\section4\7.jpg">
+        <source media="(max-width:1199px)" srcset="resources\img\adaptif\section4\3.jpg">
+      <img class="services__link-img" src="./resources/img/adaptif/section3/section3C.jpg" alt="3">
+      </picture>
+        
+      
+      <div class="services__link-item">от 30 000₽/мес</div>
+      
+      </div>
+      
+      <h3 class="services__link-text">Авторский надзор </h3>
+    </li>
+  
+    <li class="services__link">
+      <div class="services__link-wrapper">
+      <picture>
+        <source media="(max-width:500px)" srcset="resources\img\adaptif\section4\8.jpg">
+        <source media="(max-width:1199px)" srcset="resources\img\adaptif\section4\4.jpg">
+       <img class="services__link-img" src="./resources/img/adaptif/section3/section3D.jpg" alt="4">
+      </picture>
+     
+      <div class="services__link-item">5% от стоимости</div> 
+      
+      </div>
+      <h3 class="services__link-text">Комплектация</h3>
+     
+    </li>
+  </ul>
+  <button class="services__link-big js-btn" type="button">Заказать услуги</button>
+  <!-- <a href="#" class="services__link-big js-btn">Заказать услуги</a> -->
+  </div>
+
+
+    <!--POPUP -->
+
+    <form class="popup js-popup">
+      <div class="js-popup__content popup__content">
+      <button class="popup__close-btn js-popup__close-btn"></button>
+      <p class="popup__title">Заказать услугу</p>
+      <p class="popup__text">Заполните форму, мы свяжемся с вами в течение суток</p>
+      <input type="text" name="name" class="input" placeholder="Имя">
+      <input type="email" name="email" class="input" placeholder="Электронная почта">
+      <input type="phone" name="phone" class="input" placeholder="Номер телефона">
+      <button type="submit" class="popup__btn">Отправить</button>
+      </div>
+    </form>
+</section>
+
+
+<section class="reviews">
+      <div class="container">
+    
+        <h2 class="reviews__title">ОТЗЫВЫ</h2>
+    
+        <ul class="reviews__list">
+          <li class="reviews__item">
+            <h3 class="reviews__item-title">Ксения, проект 65 кв.м.</h3>
+            <p class="reviews__item-text">Хочу искренне поблагодарить Вас за работу, проделанную на высоком уровне! Нам
+              с мужем было очень
+              приятно с Вами работать! Спасибо за Ваше умение правильно слышать пожелания своих клиентов и выполнять
+              работу, которая превосходит все ожидания! Мы даже не надеялись, что на 34 кв.м. кто-то сможет нам грамотно
+              разместить все, что мы хотим и даже больше! </p>
+              <p class="reviews__item-text"> Вам удалось это просто превосходно! Нам лишь осталось воплотить красоту,
+              которую Вы нам создали в жизнь и
+              поделиться с Вами результатом!</p>
+             
+           
+          </li>
+    
+          <li class="reviews__item">
+            <h3 class="reviews__item-title">Регина, проект 89 кв.м.</h3>
+            <p class="reviews__item-text">Спасибо большое за такой классный проект! Все стильно, круто, продумано! Очень
+              приятно было с вами работать! Спасибо, что терпели наши «хочу это, хочу то» в поисках идеального для нас
+              ремонта. Здорово, что мы нашли такого основательного, ответственного и внимательного к деталям дизайнера! </p>
+             
+              <p class="reviews__item-text">Хочется скорее реализовать проект и наслаждаться современной, функциональной и
+              красивой квартирой! Будем рекомендовать Вас всем друзьям и знакомым!</p>
+  
+           
+          </li>
+    
+          <li class="reviews__item  reviews__item-big">
+            <h3 class="reviews__item-title">Яна, проект 120 кв.м.</h3>
+            <p class="reviews__item-text">Хотелось бы сказать большое спасибо за проделанную работу! В задачу Марины
+              входила разработка дизайн-проекта в минимальные сроки, и мне, конечно, не хотелось при этом потерять
+              качество выполнения работы. Но волнения были напрасны: все вопросы решались оперативно, всегда
+              предлагалось несколько вариантов решения, а также предоставлялись комментарии, какой способ решения будет
+              более подходящим. </p>
+
+
+              <p class="reviews__item-text">В итоге проект был сдан в оговоренный срок, и мне просто не терпится
+              приступить к его реализации! Проект получился очень стильным и современным! Буду рекомендовать Вас тем,
+              кому еще предстоит это непростое дело - ремонт!</p>
+          
+           
+          </li>
+        </ul>
+      </div>
+</section>
+    
+<section class="gallery-section"> 
+<div class="gallery">
+  <div class="gallery__title-wrapper">
+    <div class="container">
+        <p class="gallery__title">галерея проектов</p>
+    </div>
+  </div>
+
+          <ul class="gallery__slides">
+
+            <div class="container">
+              <li class="gallery__slide gallery__slide--active">
+              <img class="gallery__image" src="./resources/img/blok3.png" alt="1">
+              <div class="container">
+                 <p class="gallery__text  fuil__title">Проект Двухкомнатной квартиры в ЖК Лесной Пейзаж</p>
+              </div>
+             
+            </li>
+
+              <li class="gallery__slide  ">
+                <img class="gallery__image" src="./resources/img/blok3B.jpg" alt="1">
+
+                <div class="container">
+                  <p class="gallery__text  fuil__title">Проект гостиной в ЖК Маяк</p>
+                </div>
+              
+              </li>
+
+              <li class="gallery__slide  ">
+                <img class="gallery__image" src="./resources/img/blok3C.jpg" alt="1">
+                <div class="container">
+                   <p class="gallery__text  fuil__title">Визуализация кухни-гостиной в частном доме</p>
+                </div>
+              </li>
+
+              <li class="gallery__slide  ">
+                <img class="gallery__image" src="./resources/img/blok3D.jpg" alt="1">
+                <div class="container">
+                   <p class="gallery__text  fuil__title">Проект кухни в скандинавском стиле для ЖК Северный Ветер</p>
+                </div>
+               
+              </li>
+            </div>
+
+
+
+          </ul>
+          <div class="container">
+               <div class="gallery__controls">
+                  <button class="gallery__prev gallery__control-prev "></button>
+                  <button class="gallery__next gallery__control-next"></button>
+                </div>
+          </div>
+
+
+             
+     
+    </div>  
+  </section>
+
+
+
+<section class="contacts">
+    <div class="container">
+    <h2 id="conaks" class="contacts__title">Контакты</h2>
+
+    <ul class="contacts__list">
+      <li class="contacts__item">
+        <a class="contacts__item-telle" href="tel:+79358954535">+7 935 895-45-35</a></li>
+      <li class="contacts__item">
+        <a class="contacts__item-email" href="mailto:hello@mail.com">hello@mail.com</a></li>
+    </ul>
+    </div>
+    </section>
+       </main>
+
+<footer class="footer">
+  <div class="container">
+    <nav class="footer__nav">
+      <ul class="footer__menu">
+        <li class="footer__nav-list"><a href="#about" class="footer__link">О НАС</a></li>
+        <li class="footer__nav-list"><a href="#proekts" class="footer__link">ПРОЕКТЫ</a></li>
+        <li class="footer__nav-list"><a href="#services" class="footer__link">УСЛУГИ</a></li>
+        <li class="footer__nav-list"><a href="#conaks" class="footer__link">КОНТАКТЫ</a></li>
+      </ul>
+    </nav>
+    <p class="footer__text">студия дизайна интерьера Метрика — 2023</p>
+  </div>
+</footer>
+
+<!--- Бургер --->
+<script src="./js/burger.js"></script>
+<!--Высплывающеся окно-->
+<script src="./js/popup.js"></script>
+<!--Галерея -->
+<script src="./js/gallery.js"></script>
+
+</body>
+</html>
